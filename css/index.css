@@ -1,0 +1,23 @@
+#short-url{
+    width: 400px;
+    font-size: 35px;
+    text-align: center;
+    cursor: pointer;
+    background-image: url('../assets/images/copy.png');
+    background-repeat: no-repeat;
+    background-position: 370px 5px;
+}
+.init{
+    transition: background-color 2s;
+    -webkit-transition: background-color 2s;
+}
+.finish{
+    background-color: green;
+    color: #ffffff;
+}
+#hidden-url{
+    opacity: 0;
+    position: absolute;
+    top: -100px;
+    left:-500px;
+}
