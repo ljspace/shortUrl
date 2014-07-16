@@ -2,7 +2,7 @@
     "name": "sortUrl",
     "version": "0.1.0",
     "manifest_version": 2,
-    "description": "sort url",
+    "description": "短地址",
     "browser_action": {
         "default_icon": "assets/images/icon.png",
         "default_title": "短地址",
